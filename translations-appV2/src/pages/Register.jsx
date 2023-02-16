@@ -9,26 +9,30 @@ function goToLogin() {
 }
 
 const Register = () => {
-  const [t, i18n] = useTranslation("global");
+  const [translation, setTranslation] = useTranslation("global");
 
   return (
     <div className="app">
       <Header />
       <section className="registerContainer">
-        <h1>{t("register.registerTitle")}</h1>
-        <label htmlFor="name">Nombre</label>
+        <h1>{translation("register.registerTitle")}</h1>
+        <label htmlFor="name">{translation("register.nameInput")}</label>
         <input type="text" />
-        <label htmlFor="secondName">Apellido</label>
+        <label htmlFor="lastName">
+          {translation("register.lastNameInput")}
+        </label>
         <input type="text" />
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">{translation("register.emailInput")}</label>
         <input type="text" />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password">
+          {translation("register.passwordInput")}
+        </label>
         <input type="password" />
         <div className="creatingAccount">
-          <p>Ya tenes cuenta? </p>
-          <Link to="/login">Logearme</Link>
+          <p>{translation("register.alreadyHaveAccount")}</p>
+          <Link to="/login">{translation("register.goToLogIn")}</Link>
         </div>
-        <button>Registrarse</button>
+        <button>{translation("register.registerBtn")}</button>
       </section>
     </div>
   );

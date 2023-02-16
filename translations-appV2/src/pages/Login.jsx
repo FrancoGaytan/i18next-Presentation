@@ -5,22 +5,22 @@ import "./Login.css";
 import { Link, BrowserRouter, Route } from "react-router-dom";
 
 const Login = () => {
-  const [t, i18n] = useTranslation("global");
+  const [translation, setTranslation] = useTranslation("global");
 
   return (
     <div className="app">
       <Header />
       <section className="loginContainer">
-        <h1>{t("login.loginTitle")}</h1>
-        <label htmlFor="email">Email</label>
+        <h1>{translation("login.loginTitle")}</h1>
+        <label htmlFor="email">{translation("login.emailInput")}</label>
         <input type="text" />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password">{translation("login.passwordInput")}</label>
         <input type="password" />
         <div className="creatingAccount">
-          <p>No tenes cuenta? </p>
-          <Link to="/register">Registrate</Link>
+          <p>{translation("login.accountQuestion")}</p>
+          <Link to="/register">{translation("login.goToRegister")}</Link>
         </div>
-        <button>Ingresar</button>
+        <button>{translation("login.enterBtn")}</button>
       </section>
     </div>
   );

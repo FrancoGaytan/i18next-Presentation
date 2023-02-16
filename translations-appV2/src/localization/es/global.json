@@ -1,8 +1,20 @@
 {
-    "login":{
-        "loginTitle": "Logeo"
-    },
-    "register":{
-        "registerTitle": "Registro"
-    }
+  "login": {
+    "loginTitle": "Logeo",
+    "emailInput": "Email",
+    "passwordInput": "Contraseña",
+    "accountQuestion": "¿No tenes cuenta?",
+    "goToRegister": " Registrate",
+    "enterBtn": "Ingresar"
+  },
+  "register": {
+    "registerTitle": "Registro",
+    "nameInput": "Nombre",
+    "lastNameInput": "Apellido",
+    "emailInput": "Email",
+    "passwordInput": "Contraseña",
+    "alreadyHaveAccount": "¿Ya tenes cuenta?",
+    "goToLogIn": " Logearme",
+    "registerBtn": "Registrarse"
+  }
 }

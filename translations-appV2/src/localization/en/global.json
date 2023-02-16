@@ -1,8 +1,20 @@
 {
-    "login":{
-        "loginTitle": "Login"
-    },
-    "register":{
-        "registerTitle": "Sign Up"
-    }
+  "login": {
+    "loginTitle": "Login",
+    "emailInput": "Email",
+    "passwordInput": "Password",
+    "accountQuestion": "Don´t you have an account?",
+    "goToRegister": " Sign Up",
+    "enterBtn": "Enter"
+  },
+  "register": {
+    "registerTitle": "Sign Up",
+    "nameInput": "Name",
+    "lastNameInput": "Last Name",
+    "emailInput": "Email",
+    "passwordInput": "Password",
+    "alreadyHaveAccount": "Do you have an account?",
+    "goToLogIn": " Log In",
+    "registerBtn": "Register"
+  }
 }
