@@ -1,0 +1,8 @@
+{
+    "login":{
+        "loginTitle": "Login"
+    },
+    "register":{
+        "registerTitle": "Sign Up"
+    }
+}
