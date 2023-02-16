@@ -14,9 +14,21 @@ i18next.init({
       global: {
         login: {
           loginTitle: "Logeo",
+          emailInput: "Email",
+          passwordInput: "Contraseña",
+          accountQuestion: "¿No tenes cuenta?",
+          goToRegister: " Registrate",
+          enterBtn: "Ingresar",
         },
         register: {
           registerTitle: "Registro",
+          nameInput: "Nombre",
+          lastNameInput: "Apellido",
+          emailInput: "Email",
+          passwordInput: "Contraseña",
+          alreadyHaveAccount: "¿Ya tenes cuenta?",
+          goToLogIn: " Logearme",
+          registerBtn: "Registrarse",
         },
       },
     },
@@ -24,9 +36,21 @@ i18next.init({
       global: {
         login: {
           loginTitle: "Login",
+          emailInput: "Email",
+          passwordInput: "Password",
+          accountQuestion: "Don´t you have an account?",
+          goToRegister: " Sign Up",
+          enterBtn: "Enter",
         },
         register: {
           registerTitle: "Register",
+          nameInput: "Name",
+          lastNameInput: "Last Name",
+          emailInput: "Email",
+          passwordInput: "Password",
+          alreadyHaveAccount: "Do you have an account?",
+          goToLogIn: " Log In",
+          registerBtn: "Register",
         },
       },
     },
