@@ -66,4 +66,27 @@ document.getElementById('output').innerHTML = i18next.t('key');
 ## What is react-i18next?  
 react-i18next is a powerful internationalization framework for React / React Native which is based on i18next. You can check if you want, a litle bit of history about when [react-i18next-was-introduced](https://www.i18next.com/misc/the-history-of-i18next#v2)  
 The module provides multiple components eg. to assert that needed translations get loaded or that your content gets rendered when the language changes. react-i18next is optimally suited for server-side rendering. It provides extra extension point to work with next.js, for e.g.  
-As react-i18next depends on i18next you can use it in any other UI framework and on the server-side (node.js, .net, ...) too. Like the React philosophy
+As react-i18next depends on i18next you can use it in any other UI framework and on the server-side (node.js, .net, ...) too. Like the React philosophy  
+
+### Installation
+We can add it to our project using npm or yarn
+
+#### npm
+$ npm install react-i18next i18next --save
+
+#### yarn
+$ yarn add react-i18next i18next
+
+### How to use it
+In general it is not a good practice to have our texts scattered in our code, we can change a simple word in the jsx file and ruin very easy what we´re trying to achieve. Now simple content can easily be tranlated using the provided t function. For practical motives, in my code I´ll call the t function "translation". 
+
+#### Before
+```
+<h1>Login</h1>
+```
+
+#### Now
+```
+<h1>{translation("login.loginTitle")}</h1>
+```   
+Please notice that from now on we´ll be seeing code from an application which I´ll provide for you in order to understand everything, you can follow up this documentation with the actual app.
