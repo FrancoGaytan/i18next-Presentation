@@ -116,4 +116,4 @@ While most of the time you only need the t function to translate your content, y
 i18n.changeLanguage('en-US');
 ```
 ### useTranslation params
-When we mentioned the comparison between before and now 
+When we mentioned the [comparison between before and now](https://github.com/FrancoGaytan/i18next-Presentation/blob/main/README.md#now) 
