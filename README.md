@@ -64,4 +64,4 @@ document.getElementById('output').innerHTML = i18next.t('key');
 
 
 ## What is react-i18next?  
-
+react-i18next is a powerful internationalization framework for React / React Native which is based on i18next. You can check if you want, a litle bit of history about when [react-i18next-was-introduced](https://www.i18next.com/misc/the-history-of-i18next#v2)
