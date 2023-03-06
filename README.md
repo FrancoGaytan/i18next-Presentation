@@ -28,4 +28,4 @@ Sourse: [lingoport](https://lingoport.com/what-is-i18n/)
 Perfect, now that we´ve covered the basics of the internalization process we can start talking about the way that React implements it with our main topic.
 
 ## Getting Started (i18next) 
-Documentation: [reacti18nextDocumentation](https://lingoport.com/what-is-i18n/](https://react.i18next.com/)  
+Documentation: [reacti18nextDocumentation](https://react.i18next.com/)  
