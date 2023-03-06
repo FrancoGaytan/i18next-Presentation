@@ -91,7 +91,7 @@ In general it is not a good practice to have our texts scattered in our code, we
 ```   
 Please notice that from now on we´ll be seeing code from an application which I´ll provide for you in order to understand everything, you can follow up this documentation with the actual app.  
 
-We just talked about the "t" function (translation in the application) and we say wowww very easy but, Where does this function come from?
+We just talked about the "t" function (translation in the application) and we say wow very easy, right? but, Where does this function come from?
 
 ### useTranslation (hook)
 It gets the t function and i18n instance inside your functional component.
