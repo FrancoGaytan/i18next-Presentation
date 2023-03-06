@@ -64,4 +64,6 @@ document.getElementById('output').innerHTML = i18next.t('key');
 
 
 ## What is react-i18next?  
-react-i18next is a powerful internationalization framework for React / React Native which is based on i18next. You can check if you want, a litle bit of history about when [react-i18next-was-introduced](https://www.i18next.com/misc/the-history-of-i18next#v2)
+react-i18next is a powerful internationalization framework for React / React Native which is based on i18next. You can check if you want, a litle bit of history about when [react-i18next-was-introduced](https://www.i18next.com/misc/the-history-of-i18next#v2)  
+The module provides multiple components eg. to assert that needed translations get loaded or that your content gets rendered when the language changes. react-i18next is optimally suited for server-side rendering. It provides extra extension point to work with next.js, for e.g.  
+As react-i18next depends on i18next you can use it in any other UI framework and on the server-side (node.js, .net, ...) too. Like the React philosophy
