@@ -106,6 +106,8 @@ export function MyComponent() {
   return <p>{t('my translated text')}</p>
 }
 ```
+Use the useTranslation hook inside your functional components to access the translation function or i18n instance.
+
 ### Changing the current Language
 
 While most of the time you only need the t function to translate your content, you can also get the i18n instance (in order to change the language). As I did with the "t" function, I'll also change the i18n instance (to setTranslation) just in order to make it look similar to others React hooks, but with the opposite order, first the function and then the instance (replacing the state).
@@ -113,3 +115,5 @@ While most of the time you only need the t function to translate your content, y
 ```
 i18n.changeLanguage('en-US');
 ```
+### useTranslation params
+When we mentioned the comparison between before and now 
