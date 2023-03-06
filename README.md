@@ -134,4 +134,4 @@ In our case we are using global, which is the key of the resources inside of the
 ```
 
 ### Others Implementations
-The useTranslation hook is not the only way there is for using react-i18next, it is thought the only one which we are making focus on. But if you like, you can check out the alternative with High order Component [withTranslation (HOC)](https://react.i18next.com/latest/withtranslation-hoc) or the [Translation (render prop)](https://react.i18next.com/latest/translation-render-prop)
+The useTranslation hook is not the only way there is for implementing react-i18next, it is though the only one which we are making focus on. But if you like, you can check out the alternative with High order Component [withTranslation (HOC)](https://react.i18next.com/latest/withtranslation-hoc) or the [Translation (render prop)](https://react.i18next.com/latest/translation-render-prop)
