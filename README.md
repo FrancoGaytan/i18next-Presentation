@@ -21,6 +21,8 @@ Benefits of software i18n include:
 * Reduced time, cost, and effort for localization.
 * Single source code for all languages of the product.
 * Simpler, easier maintenance for future iterations of the product.
-* Greater in-country customer acceptance and satisfaction.
+* Greater in-country customer acceptance and satisfaction.  
+
+Sourse: [lingoport](https://lingoport.com/what-is-i18n/)
 
 ## Getting Started
