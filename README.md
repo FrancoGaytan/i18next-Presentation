@@ -25,7 +25,12 @@ Benefits of software i18n include:
 
 Sourse: [lingoport](https://lingoport.com/what-is-i18n/)  
 
-Perfect, now that we´ve covered the basics of the internalization process we can start talking about the way that React implements it with our main topic.
+Perfect, now that we´ve covered the basics of the internalization process we can start talking about the way that JavaScript and React implement it with our main topic.
 
 ## Getting Started (i18next) 
-Documentation: [react-i18next-Documentation](https://react.i18next.com/)  
+Documentation: [i18next-Documentation](https://www.i18next.com/)  
+i18next is an internationalization-framework written in and for JavaScript. But it's much more than that.
+i18next goes beyond just providing the standard i18n features such as ([plurals](https://www.i18next.com/translation-function/plurals), [context](https://www.i18next.com/translation-function/context), [interpolation](https://www.i18next.com/translation-function/interpolation), [format](https://www.i18next.com/translation-function/formatting)). It provides you with a complete solution to localize your product from web to mobile and desktop.
+
+## What is react-i18next?  
+
