@@ -23,6 +23,8 @@ Benefits of software i18n include:
 * Simpler, easier maintenance for future iterations of the product.
 * Greater in-country customer acceptance and satisfaction.  
 
-Sourse: [lingoport](https://lingoport.com/what-is-i18n/)
+Sourse: [lingoport](https://lingoport.com/what-is-i18n/)  
 
-## Getting Started
+Perfect, now that we´ve covered the basics of the internalization process we can start talking about the way that React implements it with our main topic.
+
+## Getting Started (i18next)
