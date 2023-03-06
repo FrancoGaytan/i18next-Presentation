@@ -34,10 +34,10 @@ i18next goes beyond just providing the standard i18n features such as ([plurals]
 In order to be able to use our library later, we'll need to install it.  
 ### Installation
 We can add it to our project using npm or yarn
-### npm
+#### npm
 $ npm install i18next --save
 
-### yarn
+#### yarn
 $ yarn add i18next
 
 ## What is react-i18next?  
