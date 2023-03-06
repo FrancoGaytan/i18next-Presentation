@@ -116,4 +116,22 @@ While most of the time you only need the t function to translate your content, y
 i18n.changeLanguage('en-US');
 ```
 ### useTranslation params
-When we mentioned the [comparison between before and now](https://github.com/FrancoGaytan/i18next-Presentation/blob/main/README.md#now) 
+When we mentioned the [comparison between before and now](https://github.com/FrancoGaytan/i18next-Presentation/blob/main/README.md#before) we saw the param inside the "t" function (login.loginTitle) which it might not mean anything right now, but with this we´ll be looking up from the translation with this particular key.  
+The other important param that we need is the one which goes inside of the useTranslation call.
+```
+const [t, i18n] = useTranslation("global");
+```
+In our case we are using global, which is the key of the resources inside of the i18n configuration and its value will tell us which is the file or the object where our localizations are.
+```
+ resources: {
+      es: {
+        global: global_es,
+      },
+      en: {
+        global: global_en,
+      },
+    },
+```
+
+### Others Implementations
+The useTranslation hook is not the only way there is for using react-i18next, it is thought the only one which we are making focus on. But if you like, you can check out the alternative with High order Component [withTranslation (HOC)](https://react.i18next.com/latest/withtranslation-hoc) or the [Translation (render prop)](https://react.i18next.com/latest/translation-render-prop)
