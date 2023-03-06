@@ -40,5 +40,26 @@ $ npm install i18next --save
 #### yarn
 $ yarn add i18next
 
+## Basic Sample  
+We have to be aware that the following example is just showing basic usage of the core functionality. For production you should consider using framework integrations yo fet better and simpler integrations.  
+
+import i18next from 'i18next';
+
+i18next.init({
+  lng: 'en', // if you're using a language detector, do not define the lng option
+  debug: true,
+  resources: {
+    en: {
+      translation: {
+        "key": "hello world"
+      }
+    }
+  }
+});
+// initialized and ready to go!
+// i18next is already initialized, because the translation resources where passed via init function
+document.getElementById('output').innerHTML = i18next.t('key');
+
+
 ## What is react-i18next?  
 
