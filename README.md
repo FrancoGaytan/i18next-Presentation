@@ -30,7 +30,10 @@ Perfect, now that we´ve covered the basics of the internalization process we ca
 ## Getting Started (i18next) 
 Documentation: [i18next-Documentation](https://www.i18next.com/)  
 i18next is an internationalization-framework written in and for JavaScript. But it's much more than that.
-i18next goes beyond just providing the standard i18n features such as ([plurals](https://www.i18next.com/translation-function/plurals), [context](https://www.i18next.com/translation-function/context), [interpolation](https://www.i18next.com/translation-function/interpolation), [format](https://www.i18next.com/translation-function/formatting)). It provides you with a complete solution to localize your product from web to mobile and desktop.
+i18next goes beyond just providing the standard i18n features such as ([plurals](https://www.i18next.com/translation-function/plurals), [context](https://www.i18next.com/translation-function/context), [interpolation](https://www.i18next.com/translation-function/interpolation), [format](https://www.i18next.com/translation-function/formatting)). It provides you with a complete solution to localize your product from web to mobile and desktop.  
+In order to be able to use our library later, we'll need to install it.  
+### Installation
+We can add it to our project using npm or yarn
 
 ## What is react-i18next?  
 
