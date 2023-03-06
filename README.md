@@ -87,10 +87,29 @@ In general it is not a good practice to have our texts scattered in our code, we
 
 #### Now
 ```
-<h1>{translation("login.loginTitle")}</h1>
+<h1>{t("login.loginTitle")}</h1>
 ```   
 Please notice that from now on we´ll be seeing code from an application which I´ll provide for you in order to understand everything, you can follow up this documentation with the actual app.  
 
 We just talked about the "t" function (translation in the application) and we say wowww very easy but, Where does this function come from?
 
 ### useTranslation (hook)
+It gets the t function and i18n instance inside your functional component.
+```
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+
+export function MyComponent() {
+  const { t, i18n } = useTranslation();
+  // or const [t, i18n] = useTranslation();
+
+  return <p>{t('my translated text')}</p>
+}
+```
+### Changing the current Language
+
+While most of the time you only need the t function to translate your content, you can also get the i18n instance (in order to change the language). As I did with the "t" function, I'll also change the i18n instance (to setTranslation) just in order to make it look similar to others React hooks, but with the opposite order, first the function and then the instance (replacing the state).
+
+```
+i18n.changeLanguage('en-US');
+```
