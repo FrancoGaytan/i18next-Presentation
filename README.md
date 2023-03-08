@@ -146,4 +146,4 @@ The only think we must do inside our component localized text is something like 
 ```
 <h6>{translation("header.authorName", { name: "Franco Gaytan" })}</h6>
 ```
-Note that the key is the same we defined and the name of the variable "name" (worth the redundancy) is also the same, that is going to produce that inside the localized text we are going to find the value of the prop that we passed it inside the component. Something very useful in specific situations.
+Note that the key is the same we defined and the name of the variable "name" (forgive the redundancy) is also the same, that is going to produce that inside the localized text we are going to find the value of the prop that we passed it inside the component. Something very useful in specific situations.
