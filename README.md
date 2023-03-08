@@ -135,3 +135,15 @@ In our case we are using global, which is the key of the resources inside of the
 
 ### Others Implementations
 The useTranslation hook is not the only way there is for implementing react-i18next, it is though the only one which we are making focus on. But if you like, you can check out the alternative with High order Component [withTranslation (HOC)](https://react.i18next.com/latest/withtranslation-hoc) or the [Translation (render prop)](https://react.i18next.com/latest/translation-render-prop)
+
+### Sending Props to your localizations  
+There will be cases when you don´t know specifically what the localized text is going to be, those ocations might be because you need a name, or a number to take place inside the text you are going to show. In order to solve this issue, react-i18next allows us to pass props inside the value of some specific key which you have already defined.  
+For instance, you have the following localization key:
+```
+authorName: "by {{ name }}",
+```
+The only think we must do inside our component localized text is something like this:
+```
+<h6>{translation("header.authorName", { name: "Franco Gaytan" })}</h6>
+```
+Note that the key is the same we defined and the name of the variable "name" (worth the redundancy) is also the same, that is going to produce that inside the localized text we are going to find the value of the prop that we passed it inside the component. Something very useful in specific situations.
