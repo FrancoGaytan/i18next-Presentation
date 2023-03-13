@@ -187,3 +187,6 @@ Another useful thing we can also add is if we want to have cache user language s
 caches: ['localStorage', 'cookie'],
 ```
 
+## Conclusion  
+I hope to have been myself clear, as I said, the idea is following these ideas with your own project and using only the utilities you need. There might be some cases when using this library will not be useful, but the idea of localization that i18n gives us is always applicable.  
+If there is anything that anybody would like me to add or change to this repo, I am always open to edit it in order to make it more clear and complete.
