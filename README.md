@@ -165,7 +165,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18next.use(LanguageDetector).init(i18nextOptions);
 ```
-#### Detector Options  
+### Detector Options  
 There is a lot of configuration settings you might be interested in, I leave you here the complete guide of the package documentation. [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector)  
 All you need to do is inside the i18n instance, it doesn´t matter where you have it, eighter in your index.js or your config file, you have to add an object with the key detection and then the order and from where user language should be detected.  
 ```
