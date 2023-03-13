@@ -182,7 +182,7 @@ i18next
       ],
      },
 ```
-Another useful thing we can also add is if we want to have cache user language saved inside our application, for instance in the localStorage. In that case, as we added the order array inside the detection object, we also have to add the caches, like this...  
+Another useful thing we can also add is if we want to have cache user language saved inside our application, for instance in the localStorage. In that case, just like we added the order array inside the detection object, we also have to add the caches, like this...  
 ```
 caches: ['localStorage', 'cookie'],
 ```
