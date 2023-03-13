@@ -108,7 +108,7 @@ export function MyComponent() {
 ```
 Use the useTranslation hook inside your functional components to access the translation function or i18n instance.
 
-### Changing the current Language
+## Changing the current Language
 
 While most of the time you only need the t function to translate your content, you can also get the i18n instance (in order to change the language). As I did with the "t" function, I'll also change the i18n instance (to setTranslation) just in order to make it look similar to others React hooks, but with the opposite order, first the function and then the instance (replacing the state).
 
@@ -136,7 +136,7 @@ In our case we are using global, which is the key of the resources inside of the
 ### Others Implementations
 The useTranslation hook is not the only way there is for implementing react-i18next, it is though the only one which we are making focus on. But if you like, you can check out the alternative with High order Component [withTranslation (HOC)](https://react.i18next.com/latest/withtranslation-hoc) or the [Translation (render prop)](https://react.i18next.com/latest/translation-render-prop)
 
-### Sending Props throughout your localizations  
+## Sending Props throughout your localizations  
 There will be cases when you don´t know specifically what the localized text is going to be, those ocations might be because you need a name, or a number to take place inside the text you are going to show. In order to solve this issue, react-i18next allows us to pass props inside the value of some specific key which you have already defined.  
 For instance, you have the following localization key:
 ```
@@ -148,7 +148,7 @@ The only think we must do inside our component localized text is something like 
 ```
 Note that the key is the same we defined and the name of the variable "name" (forgive the redundancy) is also the same, that is going to produce that inside the localized text we are going to find the value of the prop that we passed it inside the component. Something very useful in specific situations.
 
-### Default Language Detector  
+## Default Language Detector  
 There might be some times when we are not going to want to change manually the current language, or to have a default language selection, in those situation is better to configurate a Language Detector which is another of the packages that react-i18next allow us to use.
 
 We can add it to our project using npm or yarn
