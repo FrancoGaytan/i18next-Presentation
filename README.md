@@ -165,5 +165,25 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18next.use(LanguageDetector).init(i18nextOptions);
 ```
-####Detector Options  
-There is a lot of configuration settings you might be interested in, I leave you here the complete guide of the package documentation.[i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector)
+#### Detector Options  
+There is a lot of configuration settings you might be interested in, I leave you here the complete guide of the package documentation. [i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector)  
+All you need to do is inside the i18n instance, it doesn´t matter where you have it, eighter in your index.js or your config file, you have to add an object with the key detection and then the order and from where user language should be detected.  
+```
+i18next
+  .use(initReactI18next).init({
+    detection: {
+      order: [
+        "cookie",
+        "htmlTag",
+        "localStorage",
+        "path",
+        "subdomain",
+        "navigator",
+      ],
+     },
+```
+Another useful thing we can also add is if we want to have cache user language saved inside our application, for instance in the localStorage. In that case, as we added the order array inside the detection object, we also have to add the caches, like this...  
+```
+caches: ['localStorage', 'cookie'],
+```
+
