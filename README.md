@@ -147,3 +147,23 @@ The only think we must do inside our component localized text is something like 
 <h6>{translation("header.authorName", { name: "Franco Gaytan" })}</h6>
 ```
 Note that the key is the same we defined and the name of the variable "name" (forgive the redundancy) is also the same, that is going to produce that inside the localized text we are going to find the value of the prop that we passed it inside the component. Something very useful in specific situations.
+
+### Default Language Detector  
+There might be some times when we are not going to want to change manually the current language, or to have a default language selection, in those situation is better to configurate a Language Detector which is another of the packages that react-i18next allow us to use.
+
+We can add it to our project using npm or yarn
+#### npm
+$ npm install i18next-browser-languagedetector
+
+#### yarn
+$ yarn add i18next-browser-languagedetector
+
+As with all modules you can eigher pass the constructor function to the i18next.use or a concrete instance.
+```
+import i18next from 'i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+
+i18next.use(LanguageDetector).init(i18nextOptions);
+```
+####Detector Options  
+There is a lot of configuration settings you might be interested in, I leave you here the complete guide of the package documentation.[i18next-browser-languageDetector](https://github.com/i18next/i18next-browser-languageDetector)
