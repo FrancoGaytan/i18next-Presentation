@@ -15,7 +15,7 @@ Typical software internationalization tasks include:
 * Support for bi-directional languages.
 * Plus more, including issues that may be application and market specific.  
 
-### Benefits of internationalizaing software:  
+### Benefits of internationalizing software:  
 Benefits of software i18n include:  
 * Higher quality software that meets the technical and cultural needs of multiple locales.
 * Reduced time, cost, and effort for localization.
