@@ -7,8 +7,8 @@ import i18next from "i18next"; // esta es la librería
 
 i18next.init({
   interpolation: { escapeValue: false },
-  fallbackLng: "es", // este es el lenguaje para cuando no encontremos una traducción
-  lng: "es", // este es el lenguaje que elegimos
+  fallbackLng: "es",
+  lng: "es",
   resources: {
     es: {
       global: {
@@ -29,6 +29,9 @@ i18next.init({
           alreadyHaveAccount: "¿Ya tenes cuenta?",
           goToLogIn: " Logearme",
           registerBtn: "Registrarse",
+        },
+        header: {
+          authorName: "por {{ name }}",
         },
       },
     },
@@ -51,6 +54,9 @@ i18next.init({
           alreadyHaveAccount: "Do you have an account?",
           goToLogIn: " Log In",
           registerBtn: "Register",
+        },
+        header: {
+          authorName: "by {{ name }}",
         },
       },
     },

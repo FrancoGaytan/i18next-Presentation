@@ -1,7 +1,9 @@
 import i18next from "i18next";
+
+import { global_en } from "../localization/en/global.js";
+import { global_es } from "../localization/es/global.js";
+
 import { initReactI18next } from "react-i18next";
-import global_es from "../localization/es/global.json";
-import global_en from "../localization/en/global.json";
 
 i18next.use(initReactI18next).init({
   interpolation: { escapeValue: false },

@@ -3,20 +3,22 @@ import "./Header.css";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
-  const [t, translate] = useTranslation("global");
+  const [translation, setTranslation] = useTranslation("global");
 
   return (
     <div className="header">
-      <div className="title">I18Next Presentation</div>
-      <h6>{t("header.authorName", { name: "Franco Gaytan" })}</h6>
+      <div className="title">
+        {translation("header.headerTitle")}
+        <h6>{translation("header.authorName", { name: "Franco Gaytan" })}</h6>
+      </div>
       <section className="buttons">
         <button
           className="esFlag"
-          onClick={() => translate.changeLanguage("es")}
+          onClick={() => setTranslation.changeLanguage("es")}
         ></button>
         <button
           className="enFlag"
-          onClick={() => translate.changeLanguage("en")}
+          onClick={() => setTranslation.changeLanguage("en")}
         ></button>
       </section>
     </div>

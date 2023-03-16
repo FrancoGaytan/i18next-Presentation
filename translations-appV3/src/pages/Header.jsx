@@ -8,7 +8,6 @@ const Header = () => {
   return (
     <div className="header">
       <div className="title">I18Next Presentation</div>
-      <h6>{t("header.authorName", { name: "Franco Gaytan" })}</h6>
       <section className="buttons">
         <button
           className="esFlag"

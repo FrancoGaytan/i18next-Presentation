@@ -1,0 +1,68 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: url("../../public/assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app {
+  color: white;
+}
+
+.registerContainer {
+  width: 30%;
+  min-width: 300px;
+  height: 520px;
+  background-color: rgba(253, 242, 242, 0.6);
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.registerContainer h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-self: center;
+  font-size: 30px;
+}
+
+.registerContainer label {
+  align-self: flex-start;
+  margin-left: 15%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.registerContainer input {
+  min-width: 70%;
+  min-height: 25px;
+  border: none;
+  box-shadow: 4px solid black;
+}
+
+.registerContainer button {
+  margin-top: 40px;
+  width: 70%;
+  border: none;
+  background-color: rgb(18, 95, 167);
+  cursor: pointer;
+}
+
+.registerContainer p {
+  display: inline;
+}
+.registerContainer a {
+  display: inline;
+}
+
+.registerContainer .creatingAccount {
+  margin-top: 20px;
+}
